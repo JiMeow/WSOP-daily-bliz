@@ -27,6 +27,8 @@ def image_resize(image, width = None, height = None, inter = cv2.INTER_AREA):
 h, w = cv2.imread("C:/Users/Admin/Desktop/Code/wsop/card/T-heart.png", cv2.IMREAD_GRAYSCALE).shape
 print(h,w)
 
+
+
 mypath = "C:/Users/Admin/Desktop/Code/wsop/cardtest/"
 cardfile = [mypath+f for f in listdir(mypath)]
 for card in  cardfile:
